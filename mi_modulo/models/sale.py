@@ -10,4 +10,4 @@ class SaleOrder(models.Model):
     def create(self, values):
         # Add code here
         #import wdb;wdb.set_trace()
-        return super(ClassName, self).create(values)
+        return super(SaleOrder, self).create(values)
